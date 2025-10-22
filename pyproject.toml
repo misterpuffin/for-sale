@@ -1,0 +1,16 @@
+[project]
+name = "for-sale"
+version = "0.1.0"
+description = "A game playing framework for the board game 'For Sale'"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "attrs>=25.4.0",
+]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+
+[tool.mypy]
+python_executable = ".venv/bin/python"
